@@ -13,7 +13,7 @@ body{
     padding: 30px;
     margin-top: 150px;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 5px 5px 10px gray;
     position: relative;
     background-color: white;
 }
@@ -25,12 +25,14 @@ img.foto{
     position: absolute;
     right: -75px;
     top: -75px;
+    box-shadow: 5px 5px 10px gray;
 }
 
 h1{
     margin: 0;
     font-size: 36px;
     color: #d63031;
+    font-weight: bold;
     
 }
 
@@ -39,13 +41,34 @@ p{
     margin: 30px 0;
     text-align: justify;
 }
-/*
-BARVY:
 
-tlačítko Twitter:					 #1da1f2
-tlačítko Twitter aktivní:	 #0b7bc1
+.twitter, .facebook{
+    text-transform:uppercase;
+    color: white;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-tlačítko Facebook:				 #3b5998
-tlačítko Facebook aktivní: #2b406e
-*/
+.twitter{
+    background-color: #1da1f2;
+    margin-bottom: 5px;
+}
+
+.facebook{
+    background-color: #3b5998;
+}
+
+.twitter:active, .twitter:hover, twitter:focus{
+    background-color: #0b7bc1;
+}
+ .facebook:active, .facebook:hover, .facebook:focus{
+    background-color: #2b406e;
+ }
+
+
 
